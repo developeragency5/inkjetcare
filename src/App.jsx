@@ -18,7 +18,8 @@ function App() {
         <Route path='/terms-of-use' element={<TermsOfUse/>}/>
         <Route path='/subscription-policy' element={<SubsPolicy/>}/>
         <Route path='/contact-us' element={<ContactUs/>}/>
-        <Route path="/customer-service" element={<CustomerService/>} />
+        {/* <Route path="/customer-service" element={<CustomerService/>} /> */}
+        <Route path="/booking" element={<CustomerService/>} />
       </Routes>
 
   );

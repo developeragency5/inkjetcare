@@ -20,7 +20,7 @@ const Main = (props) => {
 
       <div className='cards'>
         {/* Wrap Card component with Link to navigate to CustomerService page */}
-        <Link to="/customer-service" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link to="/booking" style={{ textDecoration: 'none', color: 'inherit' }}>
           <Card />
         </Link>
       </div>

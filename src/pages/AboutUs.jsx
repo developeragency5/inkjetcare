@@ -15,7 +15,7 @@ const AboutUs = () => {
                   <h2 style={{ paddingTop: "2%" }}>Who we are?</h2>
                   <p>
                     <br />
-                     InkJetCare is an exhaustive tech and machine fix administration
+                    InkJetCare is an exhaustive tech and machine fix administration
                     supplier that takes InkJetCare of a great many electronic gadgets and
                     apparatuses. Represent considerable authority in administrations for PCs &amp; Tablets,
                     Cell phones, Printers, WiFi &amp; Systems administration, television &amp; Home
