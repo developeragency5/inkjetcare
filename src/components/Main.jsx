@@ -15,7 +15,7 @@ const Main = (props) => {
           We accept innovation ought to work for everybody. That is the reason we offer a full scope of tech and machines fix answers for keep you associated from insurance and fix to establishment and master support.
           <br />What might we do for you today?
         </p>
-        <h2 className="contact-head">For Quick Assistance : +1 (747) 444-4629</h2>
+        <h2 className="contact-head">For Quick Assistance</h2>
       </div>
 
       <div className='cards'>
