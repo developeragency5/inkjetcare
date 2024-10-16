@@ -39,7 +39,7 @@ const ContactForm = () => {
         <div className="head-div">
           {/* Make the heading a link to the homepage */}
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <h2 className="main-heading">GeeksonWheel Care</h2>
+            <h2 className="main-heading">InkjetCare Care</h2>
           </Link>
         </div>
         <div className="sec-div"></div>
@@ -53,8 +53,7 @@ const ContactForm = () => {
             service today! We're committed to your complete satisfaction with our
             service.
           </p>
-          <p><strong>Address:</strong> 3065 Brighton 2nd St
-          Brooklyn, NY 11235</p>
+          <p><strong>Address:</strong></p>
           <p><strong>Email:</strong> InkJetCare@gmail.com</p>
           <button className="chat-now-btn">Chat Now</button>
         </div>
