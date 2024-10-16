@@ -1,0 +1,74 @@
+.footer {
+  background-color: #333;  /* Dark background color */
+  padding: 20px 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;  /* Center the text inside the footer */
+}
+
+.main-footer {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;  /* Center the footer links */
+  gap: 30px;  /* Add some space between the links */
+  padding: 10px 60px;
+  border-bottom: 1px solid #444;  /* Divider line */
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.name{
+  color: white;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  text-decoration: non;
+  color: #ccc;  /* Change color on hover */
+}
+
+.footer-copyright {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #ccc;  /* Slightly lighter text for copyright */
+}
+
+.footer-brand {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.footer > div:last-child {
+  padding-top: 10px;
+  /* border-top: 1px solid #555;  Separator between the links and the footer bottom */
+  margin-top: 15px;
+}
+
+.name{
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+.footer-para{
+  color: rgb(207, 202, 202);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;  /* Ensure footer itself is a column */
+  }
+  .main-footer {
+    flex-direction: column;  /* Change main-footer to column direction */
+    font-size: 16px;  /* Adjust font size */
+    padding: 20px;  /* Adjust padding for better spacing */
+    gap: 10px;  /* Reduce gap between links */
+  }
+}

@@ -1,0 +1,57 @@
+/* Ensure the page takes full height */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.customer-service-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ensure the container takes up the full viewport height */
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+.content {
+  text-align: center;
+  width: 45%; /* Content takes up 45% of the width */
+  padding-left: 5%; /* Align content left, with some padding */
+  color: black; /* Ensure all text is black */
+}
+
+h3, h2, p {
+  margin: 15px 0;
+  color: black; /* Ensure text color is black */
+}
+
+.yellow-line {
+  width: 50px;
+  height: 5px;
+  background-color: #f4c842; /* Yellow line below heading */
+  margin: 10px 0;
+}
+
+.chat-now-btn {
+  background-color: #f4c842;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.chat-now-btn:hover {
+  background-color: #e3b234;
+}
+
+.steps {
+  margin-top: 20px;
+}
+
+.steps p {
+  margin: 5px 0;
+  color: black;
+}

@@ -1,0 +1,93 @@
+.testimonial-container {
+  background-color: #eaf3f7;
+  width: 100vw;
+  height: 600px;
+  text-align: center;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-left: 33%;
+  padding-right: 33%;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+
+.job-title {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.stars {
+  font-size: 20px;
+  color: #f4b400; /* Star color */
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.3;
+  color: #333;
+  margin-bottom: 50px;
+ }
+
+.testimonial-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+/* Fade transition effect */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.1s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.1s ease-out;
+}
+
+/* Media Queries */
+
+@media (max-width: 1080px) {
+  .testimonial-text{
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+.testimonial-text{
+  display: none;
+}
+}

@@ -1,0 +1,42 @@
+.main {
+    background-color: #2967C4;
+    height: 81px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    color: white;
+  }
+  
+  .main-heading {
+    font-size: 35px;
+    font-weight: 700;
+    color: white; 
+    padding-left: 8rem;
+  }
+  .x{
+    width: 1.5rem;
+    margin-right: 10px;
+    -webkit-filter: invert(100%)
+    
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .main {
+      height: 60px; /* Maintain a reduced height */
+      padding: 0 1rem; /* Add padding for smaller screens */
+      justify-content: center; /* Center content */
+    }
+    .main-heading {
+      font-size: 24px; /* Reduce font size */
+      padding-left: 0; /* Remove left padding for better alignment */
+      text-align: center; /* Center the heading text */
+      width: 100%; /* Make heading take full width */
+    }
+    .x{
+      width: 1rem;
+    }
+  }
+  
+  

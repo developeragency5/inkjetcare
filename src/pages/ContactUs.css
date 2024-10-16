@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .get-in-touch {
+    width: 40%;
+  }
+  
+  .get-in-touch h2 {
+    color: #333;
+  }
+  
+  .get-in-touch p {
+    margin: 10px 0;
+  }
+  
+  .chat-now-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .form-section {
+    width: 50%;
+  }
+  
+  .form-section h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  

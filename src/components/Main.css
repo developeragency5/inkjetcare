@@ -1,0 +1,162 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 15%;
+  text-align: center;
+}
+
+.main-head {
+  font-size: 2.2rem;
+  font-weight: bold;
+  
+  margin-top: 1.8rem;
+}
+
+.yellow {
+  height: 4px;
+  width: 100px;
+  background-color: #ffca28;
+  /* margin: 2% 0; */
+}
+
+.para {
+  line-height: 1.5;
+  margin-bottom: 2.7%;
+  font-size: 0.9rem;
+}
+
+.contact-head{
+  font-size: 1.8rem;
+}
+
+.appointment {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 86, 121, 1) 0%,
+    rgba(0, 176, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 216px;
+  width: 100%;
+  color: white;
+}
+
+.repair {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.img-rep {
+  width: 420px;
+}
+
+.rep-head {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content-repair {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.button {
+  border: 1px solid skyblue;
+  color: #2186ae;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 99rem;
+  border-width: 2px;
+  margin-top: 1rem;
+}
+
+.expert{
+  color: white;
+  font-size: xx-large;
+}
+
+.rep-icon {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.rep-des {
+  line-height: 1.5;
+  color: #555;
+}
+
+.cards {
+  width: 80%;
+}
+
+.repair {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.content-repair {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.img-rep {
+  max-width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .desc {
+    margin: 2rem 5%;
+  }
+  .repair {
+    flex-direction: column;
+    align-items: center;
+  }
+  .appointment {
+    height: auto; /* Allow height to adjust */
+    padding: 1rem; /* Add padding */
+  }
+
+  .repair {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .button {
+    width: 100%; /* Make button full width */
+    height: 50px; /* Increase button height */
+  }
+
+  .rep-head {
+    font-size: 28px; /* Further reduce font size */
+  }
+
+  .rep-des {
+    font-size: 14px; /* Adjust description font size */
+  }
+  .expert{
+    font-size: x-large;
+  }
+}

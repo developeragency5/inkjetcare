@@ -1,0 +1,30 @@
+.about-us-container {
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .about-us-container h1 {
+    color: #0073e6;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .about-us-container h2 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+  }
+  
