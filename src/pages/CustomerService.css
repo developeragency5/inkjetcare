@@ -55,3 +55,9 @@ h3, h2, p {
   margin: 5px 0;
   color: black;
 }
+@media (max-width: 576px) {
+  .mc{
+    display: none;
+  }
+}
+
