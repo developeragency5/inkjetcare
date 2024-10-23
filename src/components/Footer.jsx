@@ -14,7 +14,7 @@ const Footer = () => {
         <Link to="/contact-us" className='footer-link'>Contact Us</Link>
       </div>
     <div>
-        <p className='para'>Copyright © 2024 InkJetCare. All Rights Reserved</p>
+        <p className='para'>Copyright © 2023 InkJetCare. All Rights Reserved</p>
         <h2 className='name'>InkJetCare</h2>
       </div>
     </div>
