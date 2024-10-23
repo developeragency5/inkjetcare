@@ -15,7 +15,7 @@ const CustomerService = () => {
         <p>
         We investigate and fix equipment and programming issues, upgrade execution, and give arrangement and upkeep administrations to the two computers and tablets.
         </p>
-        <h2>For Quick Assistance:</h2>
+        <h2>For Quick Assistance:+1-434-424-3271</h2>
         <h3>We Want To Serve Best As We Can</h3>
         <button className="chat-now-btn">Chat Now</button>
 
