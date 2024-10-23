@@ -53,8 +53,8 @@ const ContactForm = () => {
             service today! We're committed to your complete satisfaction with our
             service.
           </p>
-          <p><strong>Address:</strong></p>
-          <p><strong>Email:</strong> InkJetCare@gmail.com</p>
+          <p><strong>Address:16431 Austin Drive, Dahlgren VA 22448</strong></p>
+          <p><strong>Email:</strong> inkjetcare@outlook.com</p>
           <button className="chat-now-btn">Chat Now</button>
         </div>
 
