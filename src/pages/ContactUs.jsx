@@ -39,7 +39,7 @@ const ContactForm = () => {
         <div className="head-div">
           {/* Make the heading a link to the homepage */}
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <h2 className="main-heading">InkjetCare Care</h2>
+            <h2 className="main-heading">InkjetCare</h2>
           </Link>
         </div>
         <div className="sec-div"></div>
