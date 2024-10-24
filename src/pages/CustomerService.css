@@ -12,7 +12,7 @@ body, html {
   height: 100vh; /* Full viewport height */
   display: flex;
   align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
+  justify-content: start; /* Center content horizontally */
   padding: 20px; /* Add padding */
   box-sizing: border-box; /* Include padding in width/height */
 }
@@ -24,6 +24,7 @@ body, html {
   padding: 20px; /* Padding around content */
   background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque background for readability */
   border-radius: 8px; /* Rounded corners */
+  margin-left: 10rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
@@ -142,4 +143,14 @@ h3, h2, p {
       display: none;
     }
 
+  }
+
+  @media (max-width:727px) {
+    .customer-service-container{
+      justify-content: center;
+    }
+
+    .content{
+      margin-left: 0;
+    }
   }
