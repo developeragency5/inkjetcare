@@ -53,10 +53,11 @@ const CustomerService = () => {
           <button className="chat-now-btn" onClick={handleChatClick}>Chat Now</button>
 
           <div className="steps">
-            <p>✔ Start Chat</p>
-            <p>✔ Schedule Appointment</p>
-            <p>✔ Get Device Repaired</p>
-          </div>
+    <p><span className="tick">✔</span> Start Chat</p>
+    <p><span className="tick">✔</span> Schedule Appointment</p>
+    <p><span className="tick">✔</span> Get Device Repaired</p>
+</div>
+
           <div>
             <p className='mc'>
               InkJetCare is an independent third-party IT specialist for software-related issues. Unless stated, we are not affiliated with any organization, association, manufacturer, ISP, or email provider. Our services have assisted thousands of individuals with their computer issues. These services may also be available through the brand owner.

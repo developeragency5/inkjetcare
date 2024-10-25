@@ -20,6 +20,7 @@ function App() {
         <Route path='/contact-us' element={<ContactUs/>}/>
         {/* <Route path="/customer-service" element={<CustomerService/>} /> */}
         <Route path="/booking" element={<CustomerService/>} />
+        
       </Routes>
 
   );

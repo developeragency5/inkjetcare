@@ -32,7 +32,11 @@ h3, h2, p {
   margin: 15px 0;
   color: black; /* Text color */
   
-  
+  .tick {
+    color: green; /* Change tick color to green */
+    margin-right: 5px; /* Optional: space between tick and text */
+}
+
 }
 h2{
   font-size: 0.7rem;
@@ -153,9 +157,9 @@ p{
   }
 
   @media (max-height:655px) {
-    .mc{
+    /* .mc{
       display: none;
-    }
+    } */
 
   }
 
@@ -163,6 +167,8 @@ p{
     .customer-service-container{
       justify-content: center;
     }
+    
+    
 
     .content{
       margin-left: 0;
