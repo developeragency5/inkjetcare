@@ -48,7 +48,7 @@ const CustomerService = () => {
           <p>
             We investigate and fix equipment and programming issues, upgrade execution, and provide arrangement and upkeep administrations for both computers and tablets.
           </p>
-          <h2 className='ms'>For Quick Assistance: +1-434-477-9315</h2>
+          <h2 className='ms'>For Quick Toll free Assistance: +1-434-477-9315</h2>
           <h3>We Want To Serve Best As We Can</h3>
           <button className="chat-now-btn" onClick={handleChatClick}>Chat Now</button>
 
