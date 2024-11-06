@@ -46,7 +46,7 @@ const CustomerService = () => {
         <div className="content">
           <h3>Looking for more than just a repair?</h3>
           <p>
-            We investigate and fix equipment and programming issues, upgrade execution, and provide arrangement and upkeep administrations for both computers and tablets.
+            From breaks to bugs, we have all your devices covered. Book your appointment for repair, installation, or device pickup. Ask a question via call, chat, or email whenever you need help.
           </p>
           <h2 className='ms'>For Quick Toll free Assistance:<span className = "ph">+1-434-477-9315</span></h2>
           <h3>We Want To Serve Best As We Can</h3>
