@@ -3,18 +3,21 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  
 }
 
 .customer-service-container {
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
+  height: 100%; /* Full viewport height */
+  width: 100%;
   display: flex;
   align-items: center; /* Center content vertically */
   justify-content: start; /* Center content horizontally */
   padding: 10px; /* Add padding */
   box-sizing: border-box; 
+ 
 }
 
 .content {
@@ -26,6 +29,7 @@ body, html {
   /* border-radius: 8px; Rounded corners */
   margin-left: 5rem;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); Subtle shadow */
+  
 }
 
 h3, h2, p {
@@ -98,7 +102,7 @@ p{
   }
 
   .chat-now-btn {
-    width: 100%; /* Full-width button */
+    /* width: 100%;  */
     padding: 15px; /* Larger padding for easier clicking */
   }
 
@@ -124,7 +128,7 @@ p{
   }
 
   .chat-now-btn {
-    width: 100%; /* Full-width button */
+    /* width: 100%; */
     padding: 7.5px; /* Larger padding for easier clicking */
   }
 
@@ -149,7 +153,7 @@ p{
   }
 
   .chat-now-btn {
-    width: 100%; /* Full-width button */
+    /* width: 100%;  */
     padding: 7.5px; /* Larger padding for easier clicking */
   }
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './CustomerService.css'; 
-import backgroundImage from '../assets/cust.jpeg'; 
+import backgroundImage from '../assets/Chat.jpeg'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 

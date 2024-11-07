@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="main">
       <div className="head-div">
       <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <h2 className="main-heading">InkJetCare</h2>
+        <h2 className="main-heading">Inkjetcare</h2>
         </Link>
       </div>
     </div>
